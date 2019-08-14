@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC8E83222FC22B900B92145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8E83122FC22B900B92145 /* AppDelegate.m */; };
+		1AC8E83522FC22B900B92145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8E83422FC22B900B92145 /* ViewController.m */; };
+		1AC8E83822FC22B900B92145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC8E83622FC22B900B92145 /* Main.storyboard */; };
+		1AC8E83A22FC22BA00B92145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC8E83922FC22BA00B92145 /* Assets.xcassets */; };
+		1AC8E83D22FC22BA00B92145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC8E83B22FC22BA00B92145 /* LaunchScreen.storyboard */; };
+		1AC8E84022FC22BA00B92145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8E83F22FC22BA00B92145 /* main.m */; };
+		1AC8E84D22FC34BF00B92145 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8E84C22FC34BF00B92145 /* AddCardViewController.m */; };
+		1AC8E85D22FD8F6C00B92145 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8E85C22FD8F6C00B92145 /* CardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AC8E82D22FC22B900B92145 /* FlashcardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashcardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC8E83022FC22B900B92145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AC8E83122FC22B900B92145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AC8E83322FC22B900B92145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AC8E83422FC22B900B92145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AC8E83722FC22B900B92145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AC8E83922FC22BA00B92145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AC8E83C22FC22BA00B92145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AC8E83E22FC22BA00B92145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC8E83F22FC22BA00B92145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AC8E84B22FC34BF00B92145 /* AddCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		1AC8E84C22FC34BF00B92145 /* AddCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		1AC8E85B22FD8F6C00B92145 /* CardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		1AC8E85C22FD8F6C00B92145 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC8E82A22FC22B900B92145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC8E82422FC22B900B92145 = {
+			isa = PBXGroup;
+			children = (
+				1AC8E82F22FC22B900B92145 /* FlashcardDemo */,
+				1AC8E82E22FC22B900B92145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC8E82E22FC22B900B92145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8E82D22FC22B900B92145 /* FlashcardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC8E82F22FC22B900B92145 /* FlashcardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8E83022FC22B900B92145 /* AppDelegate.h */,
+				1AC8E83122FC22B900B92145 /* AppDelegate.m */,
+				1AC8E84B22FC34BF00B92145 /* AddCardViewController.h */,
+				1AC8E84C22FC34BF00B92145 /* AddCardViewController.m */,
+				1AC8E83322FC22B900B92145 /* ViewController.h */,
+				1AC8E83422FC22B900B92145 /* ViewController.m */,
+				1AC8E85B22FD8F6C00B92145 /* CardView.h */,
+				1AC8E85C22FD8F6C00B92145 /* CardView.m */,
+				1AC8E83622FC22B900B92145 /* Main.storyboard */,
+				1AC8E83922FC22BA00B92145 /* Assets.xcassets */,
+				1AC8E83B22FC22BA00B92145 /* LaunchScreen.storyboard */,
+				1AC8E83E22FC22BA00B92145 /* Info.plist */,
+				1AC8E83F22FC22BA00B92145 /* main.m */,
+			);
+			path = FlashcardDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC8E82C22FC22B900B92145 /* FlashcardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC8E84322FC22BA00B92145 /* Build configuration list for PBXNativeTarget "FlashcardDemo" */;
+			buildPhases = (
+				1AC8E82922FC22B900B92145 /* Sources */,
+				1AC8E82A22FC22B900B92145 /* Frameworks */,
+				1AC8E82B22FC22B900B92145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashcardDemo;
+			productName = FlashcardDemo;
+			productReference = 1AC8E82D22FC22B900B92145 /* FlashcardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC8E82522FC22B900B92145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ZhengYang;
+				TargetAttributes = {
+					1AC8E82C22FC22B900B92145 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 1AC8E82822FC22B900B92145 /* Build configuration list for PBXProject "FlashcardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC8E82422FC22B900B92145;
+			productRefGroup = 1AC8E82E22FC22B900B92145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC8E82C22FC22B900B92145 /* FlashcardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC8E82B22FC22B900B92145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC8E83D22FC22BA00B92145 /* LaunchScreen.storyboard in Resources */,
+				1AC8E83A22FC22BA00B92145 /* Assets.xcassets in Resources */,
+				1AC8E83822FC22B900B92145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC8E82922FC22B900B92145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC8E85D22FD8F6C00B92145 /* CardView.m in Sources */,
+				1AC8E83522FC22B900B92145 /* ViewController.m in Sources */,
+				1AC8E84022FC22BA00B92145 /* main.m in Sources */,
+				1AC8E84D22FC34BF00B92145 /* AddCardViewController.m in Sources */,
+				1AC8E83222FC22B900B92145 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AC8E83622FC22B900B92145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC8E83722FC22B900B92145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AC8E83B22FC22BA00B92145 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC8E83C22FC22BA00B92145 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AC8E84122FC22BA00B92145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AC8E84222FC22BA00B92145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC8E84422FC22BA00B92145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z57DAJWH52;
+				INFOPLIST_FILE = FlashcardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SporNet.FlashcardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC8E84522FC22BA00B92145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z57DAJWH52;
+				INFOPLIST_FILE = FlashcardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SporNet.FlashcardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC8E82822FC22B900B92145 /* Build configuration list for PBXProject "FlashcardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC8E84122FC22BA00B92145 /* Debug */,
+				1AC8E84222FC22BA00B92145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC8E84322FC22BA00B92145 /* Build configuration list for PBXNativeTarget "FlashcardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC8E84422FC22BA00B92145 /* Debug */,
+				1AC8E84522FC22BA00B92145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC8E82522FC22B900B92145 /* Project object */;
+}
